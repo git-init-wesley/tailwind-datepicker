@@ -1,8 +1,12 @@
 # Tailwind CSS Datepicker
 
-This project is a free and open source datepicker library which uses the utility-first classes from Tailwind and the JavaScript from another open source library called Vanilla JS Datepicker.
+This project is a free and open source datepicker library which uses the utility-first classes from Tailwind and the
+JavaScript from another open source library called Vanilla JS Datepicker.
 
-This [Tailwind CSS Datepicker](https://flowbite.com/docs/plugins/datepicker/) is part of a larger library of components and interactive elements called Flowbite. Although it can also be used independently from the main library, we encourage you to check out the whole [Tailwind components library from Flowbite](https://flowbite.com/docs/getting-started/introduction/).
+This [Tailwind CSS Datepicker](https://flowbite.com/docs/plugins/datepicker/) is part of a larger library of components
+and interactive elements called Flowbite. Although it can also be used independently from the main library, we encourage
+you to check out the
+whole [Tailwind components library from Flowbite](https://flowbite.com/docs/getting-started/introduction/).
 
 <a href="https://flowbite.com/docs/plugins/datepicker/">
   <img src="https://flowbite.s3.amazonaws.com/tailwind-css-datepicker.png" alt="Tailwind CSS Datepicker">
@@ -10,7 +14,8 @@ This [Tailwind CSS Datepicker](https://flowbite.com/docs/plugins/datepicker/) is
 
 ## Getting started
 
-If you want to use the **Tailwind Datepicker** plugin using JavaScript you will need to include it into your project via NPM:
+If you want to use the **Tailwind Datepicker** plugin using JavaScript you will need to include it into your project via
+NPM:
 
 ```bash
 npm i flowbite-datepicker --save
@@ -48,18 +53,20 @@ new DateRangePicker(datepickerEl, {
 
 ## Documentation
 
-Check out the official [Tailwind CSS Datepicker Documentation](https://flowbite.com/docs/plugins/datepicker/) page to learn how to get started by installing and then using this library in your project.
+Check out the official [Tailwind CSS Datepicker Documentation](https://flowbite.com/docs/plugins/datepicker/) page to
+learn how to get started by installing and then using this library in your project.
 
 ## Upgrade to pro
 
-There is also a pro version of FlowBite available featuring more components, an application UI layout, marketing UI pages, e-commerce pages and also Figma design files.
+There is also a pro version of FlowBite available featuring more components, an application UI layout, marketing UI
+pages, e-commerce pages and also Figma design files.
 
 Check it out here: [flowbite.com](https://flowbite.com)
 
 ## License
 
-The Tailwind CSS Datepicker is open-source under the MIT License. Find out more by [clicking here](https://flowbite.com/docs/getting-started/license/).
-
+The Tailwind CSS Datepicker is open-source under the MIT License. Find out more
+by [clicking here](https://flowbite.com/docs/getting-started/license/).
 
 ### Donations
 

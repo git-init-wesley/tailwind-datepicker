@@ -5,7 +5,7 @@
 ### Changes
 
 - Chnage `datepicer.show()` to move the focus to the input field if it's not focused
-  - Fix #52 — picker shown by calling show() doesn't hide by clicking outside
+    - Fix #52 — picker shown by calling show() doesn't hide by clicking outside
 
 ## 1.1.3
 
@@ -33,12 +33,14 @@
 
 - Add `updateOnBlur` option (#13)
 - Add `showOnClick` option (#21)
-    - Along with this, picker element's click handler is changed to keep the focus on input field after auto-hiding on date selection
+    - Along with this, picker element's click handler is changed to keep the focus on input field after auto-hiding on
+      date selection
 - Add `pickLevel` option (#22, #23)
-    - minView feature + comprehensive control on date picking level that works with edit on input field and `setDate()` call as well
+    - minView feature + comprehensive control on date picking level that works with edit on input field and `setDate()`
+      call as well
 - Add optional `forceRender` argument to `refresh()`API
 - Add `setDates()` API to DateRangePicker (#27)
-- Add support for package entry points 
+- Add support for package entry points
 
 ### Bug fixes
 
@@ -49,13 +51,13 @@
 - Change the edit mode so that it no longer discards unparsed changes when exiting
 - Add shift + arrow key to the key patterns to enter the edit mode
 - Make range highlight between range-start and -end available on all views as well as the days view
-- Revise the cross reference between DateRangePicker and Datepicker instances to make it securely usable in custom event handler, etc.
+- Revise the cross reference between DateRangePicker and Datepicker instances to make it securely usable in custom event
+  handler, etc.
 - Improve readability of selected date in previous/next month area in the calendar
-
 
 ## 1.0.3
 
-- Fix #24 — change event was fired inappropriately through setDate() API call 
+- Fix #24 — change event was fired inappropriately through setDate() API call
 
 ## 1.0.2
 

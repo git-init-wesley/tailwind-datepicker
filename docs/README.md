@@ -1,9 +1,13 @@
 # Vanilla JS Datepicker
 
-A vanilla JavaScript remake of [bootstrap-datepicker](https://github.com/uxsolutions/bootstrap-datepicker) for [Bulma](https://bulma.io) and other CSS frameworks  
+A vanilla JavaScript remake of [bootstrap-datepicker](https://github.com/uxsolutions/bootstrap-datepicker)
+for [Bulma](https://bulma.io) and other CSS frameworks
 
-This package is written from scratch as ECMAScript modules/[Sass](https://sass-lang.com) stylesheets to reproduce similar usability to bootstrap-datepicker.  
-It can work either standalone or with CSS framework (e.g. [Bootstrap](https://getbootstrap.com), [Foundation](https://get.foundation)), but works best with [Bulma](https://bulma.io) as it's developed primarily for Bulma. 
+This package is written from scratch as ECMAScript modules/[Sass](https://sass-lang.com) stylesheets to reproduce
+similar usability to bootstrap-datepicker.  
+It can work either standalone or with CSS framework (
+e.g. [Bootstrap](https://getbootstrap.com), [Foundation](https://get.foundation)), but works best
+with [Bulma](https://bulma.io) as it's developed primarily for Bulma.
 
 The package also includes pre-built js/css files for those who like to use it directly on browser.
 
@@ -45,13 +49,18 @@ npm install --save-dev vanillajs-datepicker
 import Datepicker from 'path/to/node_modules/vanillajs-datepicker/js/Datepicker.js';
 ```
 
-_Or if you use a bundler that supports [pkg.module](https://github.com/rollup/rollup/wiki/pkg.module) (e.g. [Rollup](https://rollupjs.org/) with [node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve) plugin, [webpack](https://webpack.js.org/))_
+_Or if you use a bundler that supports [pkg.module](https://github.com/rollup/rollup/wiki/pkg.module) (
+e.g. [Rollup](https://rollupjs.org/)
+with [node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve)
+plugin, [webpack](https://webpack.js.org/))_
 
 ```javascript
 import { Datepicker } from 'vanillajs-datepicker';
 ```
 
-_Or if your bundler supports [package entry points](https://nodejs.org/api/packages.html#packages_package_entry_points) (e.g. Rollup with node-resolve plugin v8.4+, webpack v5+), you can also do this._
+_Or if your bundler
+supports [package entry points](https://nodejs.org/api/packages.html#packages_package_entry_points) (e.g. Rollup with
+node-resolve plugin v8.4+, webpack v5+), you can also do this._
 
 ```javascript
 import Datepicker from 'vanillajs-datepicker/Datepicker';
@@ -67,7 +76,6 @@ const datepicker = new Datepicker(elem, {
 ```
 
 ![](./images/datepicker.jpg)
-
 
 – **Inline picker**
 
@@ -91,7 +99,6 @@ const datepicker = new Datepicker(elem, {
 
 ![](./images/datepicker-inline.jpg)
 
-
 ##### Date range picker
 
 1. create a block element that contains 2 text input elements.
@@ -110,13 +117,18 @@ const datepicker = new Datepicker(elem, {
 import DateRangePicker from 'path/to/node_modules/vanillajs-datepicker/js/DateRangePicker.js';
 ```
 
-_Or if you use a bundler that supports [pkg.module](https://github.com/rollup/rollup/wiki/pkg.module) (e.g. [Rollup](https://rollupjs.org/) with [node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve) plugin, [webpack](https://webpack.js.org/))_
+_Or if you use a bundler that supports [pkg.module](https://github.com/rollup/rollup/wiki/pkg.module) (
+e.g. [Rollup](https://rollupjs.org/)
+with [node-resolve](https://github.com/rollup/plugins/tree/master/packages/node-resolve)
+plugin, [webpack](https://webpack.js.org/))_
 
 ```javascript
 import { DateRangePicker } from 'vanillajs-datepicker';
 ```
 
-_Or if your bundler supports [package entry points](https://nodejs.org/api/packages.html#packages_package_entry_points) (e.g. Rollup with node-resolve plugin v8.4+, webpack v5+), you can also do this._
+_Or if your bundler
+supports [package entry points](https://nodejs.org/api/packages.html#packages_package_entry_points) (e.g. Rollup with
+node-resolve plugin v8.4+, webpack v5+), you can also do this._
 
 ```javascript
 import DateRangePicker from 'vanillajs-datepicker/DateRangePicker';
@@ -177,7 +189,8 @@ const datepicker = new Datepicker(elem, {
 
 #### Other frameworks
 
- 1. If the framework uses a specific class for button elements, set it to the `buttonClass` option to call `Datepicker`/`DateRangePicker` constructor.
+1. If the framework uses a specific class for button elements, set it to the `buttonClass` option to
+   call `Datepicker`/`DateRangePicker` constructor.
 
 ```javascript
 const datepicker = new Datepicker(elem, {
@@ -185,7 +198,8 @@ const datepicker = new Datepicker(elem, {
 }); 
 ```
 
-2. Copy the following template into your sass stylesheet, and edit the node_module path, the variables, button class and button style adjustments to match your environment.
+2. Copy the following template into your sass stylesheet, and edit the node_module path, the variables, button class and
+   button style adjustments to match your environment.
 
 ```scss
 /***
@@ -255,7 +269,8 @@ _And if don't need date range, you can use the datepicker-only version of js fil
 <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker.min.js"></script>
 ```
 
-2. Call `Datepicker`/`DateRangePicker` constructor in the same way as explained [above](?id=quick-start). (The classes are exposed to global scope.)
+2. Call `Datepicker`/`DateRangePicker` constructor in the same way as explained [above](?id=quick-start). (The classes
+   are exposed to global scope.)
 
 ```javascript
 const elem = document.querySelector('input[name="foo"]');

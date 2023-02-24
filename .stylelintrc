@@ -5,8 +5,20 @@
   ],
   "rules": {
     "max-nesting-depth": 5,
-    "selector-no-qualifying-type": [true, {"ignore": ["attribute", "class"]}],
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": [
+          "attribute",
+          "class"
+        ]
+      }
+    ],
     "order/properties-alphabetical-order": null
   },
-  "ignoreFiles": ["dist/**", "node_modules", "refs/**"]
+  "ignoreFiles": [
+    "dist/**",
+    "node_modules",
+    "refs/**"
+  ]
 }

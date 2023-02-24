@@ -47,7 +47,7 @@ $dp-input-in-edit-focus-box-shadow-size: 0 0 0.25em 0.25em !default;
       background-color: scale-color($dp-background-color, $lightness: -15%);
 
       &[disabled] {
-        opacity: 0.25;  // $button-opacity-disabled
+        opacity: 0.25; // $button-opacity-disabled
         background-color: $dp-background-color;
         color: $body-font-color;
       }
