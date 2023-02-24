@@ -1,6 +1,10 @@
 {
-  "name": "flowbite-datepicker",
-  "version": "1.2.1",
+  "name": "@git-init-wesley/flowbite-datepicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/git-init-wesley/tailwind-datepicker.git"
+  },
+  "version": "1.2.1-review1",
   "description": "A Tailwind CSS powered datepicker built with vanilla JavaScript and Flowbite",
   "type": "module",
   "module": "js/main.js",
@@ -10,10 +14,6 @@
     "./DateRangePicker": "./js/DateRangePicker.js",
     "./locales/*": "./js/i18n/locales/*.js",
     "./locales/": "./js/i18n/locales/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/themesberg/tailwind-datepicker"
   },
   "homepage": "https://flowbite.com/docs/plugins/datepicker/",
   "scripts": {
